@@ -14,7 +14,7 @@ Inference is a unit-economics game. Whoever measures it wins.
 
 ## Status
 
-Concept primer written (`CONCEPTS.md`). The metering proxy and dashboard are next; results land in `results/` once the GPU run is done.
+Primer, proxy, cost math, dashboard and the Kaggle notebook are done; the GPU run is next.
 
 ## Layout
 
