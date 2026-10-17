@@ -14,7 +14,7 @@ Inference is a unit-economics game. Whoever measures it wins.
 
 ## Status
 
-Scaffolded. Concept notes and the first implementation are in progress; results land in `results/` once the GPU runs are done.
+Concept primer written (`CONCEPTS.md`). The metering proxy and dashboard are next; results land in `results/` once the GPU run is done.
 
 ## Layout
 
