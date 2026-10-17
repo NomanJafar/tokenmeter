@@ -1,0 +1,20 @@
+<!doctype html><html><head><meta charset="utf-8"><title>tokenmeter</title>
+<style>body{font-family:system-ui,sans-serif;margin:2rem;max-width:1100px}table{border-collapse:collapse}td,th{border:1px solid #ccc;padding:.3rem .6rem;text-align:right}th:first-child,td:first-child{text-align:left}.k{display:inline-block;margin:.4rem 1.2rem .4rem 0}.k b{font-size:1.4rem}</style></head><body>
+<h1>tokenmeter</h1>
+<p>1,877 requests over 8.0 min · 570,382 prompt + 280,208 completion tokens · 0 errors</p>
+<h2>Unit price</h2>
+<div class="k">GPU bill<br><b>$0.0474</b><br>0.135 h × $0.35/h</div>
+<div class="k">$/M completion (fully loaded)<br><b>$0.11</b></div>
+<div class="k">$/M prompt (weight 0.25)<br><b>$0.03</b></div>
+<div class="k">$/M completion (marginal, busy time only)<br><b>$0.11</b></div>
+<div class="k">Hosted-API equivalent ($0.15/$0.6 per M in/out)<br><b>$0.2537</b></div>
+<div class="k">If the GPU ran at 30% utilisation<br><b>$2.76/M</b></div>
+<h2>Utilisation</h2>
+<div class="k">completion tokens/s<br><b>583.8</b></div>
+<div class="k">MFU<br><b>2.77%</b></div>
+<div class="k">memory-bandwidth utilisation<br><b>38.9%</b><br>assumed step 25.7 ms</div>
+<h2>Per tenant</h2>
+<table><tr><th>tenant</th><th>requests</th><th>errors</th><th>prompt tokens</th><th>completion tokens</th><th>share (loaded)</th><th>$ loaded</th><th>$ marginal</th><th>TTFT p50 ms</th><th>p95 ms</th></tr><tr><td>rag</td><td>227</td><td>0</td><td>349,896</td><td>10,896</td><td>23.3%</td><td>$0.0110</td><td>$0.0109</td><td>623</td><td>1,179</td></tr><tr><td>chat</td><td>1423</td><td>0</td><td>196,552</td><td>182,144</td><td>54.7%</td><td>$0.0259</td><td>$0.0255</td><td>100</td><td>863</td></tr><tr><td>bulk</td><td>227</td><td>0</td><td>23,934</td><td>87,168</td><td>22.0%</td><td>$0.0104</td><td>$0.0103</td><td>627</td><td>1,167</td></tr></table>
+<h2>Tokens over time</h2><img src="tokens_over_time.png" alt="tokens over time">
+<p><small>Costs use wall-clock GPU hours (idle time is billed); "marginal" uses busy time only. MFU = tokens/s × 2 × params ÷ peak FLOPS; bandwidth utilisation assumes the weights are read once per decode step.</small></p>
+</body></html>

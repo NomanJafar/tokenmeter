@@ -1,0 +1,116 @@
+{
+ "totals": {
+  "requests": 1877,
+  "prompt_tokens": 570382,
+  "completion_tokens": 280208,
+  "first_ts": 1792261488.698441,
+  "last_ts": 1792261968.6493566,
+  "errors": 0
+ },
+ "span_s": 479.95091557502747,
+ "prices": {
+  "gpu_usd_per_hour": 0.35,
+  "gpu_hours": 0.13547507021162244,
+  "busy_hours": 0.13331969877084096,
+  "total_usd": 0.04741627457406785,
+  "prompt_tokens": 570382,
+  "completion_tokens": 280208,
+  "prompt_weight": 0.25,
+  "weighted_tokens": 422803.5,
+  "usd_per_m_completion": 0.11214730855839143,
+  "usd_per_m_prompt": 0.028036827139597858,
+  "marginal_usd_per_m_completion": 0.11036307544709145,
+  "marginal_usd_per_m_prompt": 0.027590768861772863
+ },
+ "per_tenant": {
+  "rag": {
+   "requests": 227,
+   "errors": 0,
+   "estimated": 0,
+   "prompt_tokens": 349896,
+   "completion_tokens": 10896,
+   "ttft_p50_ms": 622.8022399998281,
+   "ttft_p95_ms": 1178.9359149000347
+  },
+  "chat": {
+   "requests": 1423,
+   "errors": 0,
+   "estimated": 0,
+   "prompt_tokens": 196552,
+   "completion_tokens": 182144,
+   "ttft_p50_ms": 100.39243899996109,
+   "ttft_p95_ms": 863.1998580000298
+  },
+  "bulk": {
+   "requests": 227,
+   "errors": 0,
+   "estimated": 0,
+   "prompt_tokens": 23934,
+   "completion_tokens": 87168,
+   "ttft_p50_ms": 626.8571960001736,
+   "ttft_p95_ms": 1166.7542808999542
+  }
+ },
+ "attribution": {
+  "loaded": {
+   "rag": {
+    "prompt_tokens": 349896,
+    "completion_tokens": 10896,
+    "weighted_tokens": 98370.0,
+    "share": 0.23266127172551787,
+    "usd": 0.011031930742888964
+   },
+   "chat": {
+    "prompt_tokens": 196552,
+    "completion_tokens": 182144,
+    "weighted_tokens": 231282.0,
+    "share": 0.5470200696068032,
+    "usd": 0.025937653818001886
+   },
+   "bulk": {
+    "prompt_tokens": 23934,
+    "completion_tokens": 87168,
+    "weighted_tokens": 93151.5,
+    "share": 0.22031865866767897,
+    "usd": 0.010446690013177
+   }
+  },
+  "marginal": {
+   "rag": {
+    "prompt_tokens": 349896,
+    "completion_tokens": 10896,
+    "weighted_tokens": 98370.0,
+    "share": 0.23266127172551787,
+    "usd": 0.010856415731730386
+   },
+   "chat": {
+    "prompt_tokens": 196552,
+    "completion_tokens": 182144,
+    "weighted_tokens": 231282.0,
+    "share": 0.5470200696068032,
+    "usd": 0.025524992815554204
+   },
+   "bulk": {
+    "prompt_tokens": 23934,
+    "completion_tokens": 87168,
+    "weighted_tokens": 93151.5,
+    "share": 0.22031865866767897,
+    "usd": 0.010280486022509739
+   }
+  }
+ },
+ "utilisation": {
+  "completion_tokens_per_s": 583.8263682949407,
+  "mfu": 0.027664387913052577,
+  "bandwidth": 0.3889670519596629,
+  "step_s_assumed": 0.02570711500015932
+ },
+ "hosted_equivalent_usd": 0.25368209999999997,
+ "hosted_rates": {
+  "in": 0.15,
+  "out": 0.6
+ },
+ "idle_scenario": {
+  "at_30pct_utilisation_usd_per_m_completion": 2.759359056078454
+ }
+}
